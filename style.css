@@ -75,3 +75,9 @@ label
 text-decoration: none;
 color: #7CAE7A;
 }
+
+.obr 
+{
+    display: flex;
+    justify-content: center;
+}
