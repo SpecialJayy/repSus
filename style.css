@@ -1,0 +1,27 @@
+body 
+{
+    background-color: #394053;
+}
+h1 
+{
+    color: #7CAE7A;
+}
+
+a 
+{
+    transition: 0.5s;
+    color: #7CAE7A;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+a:hover 
+{
+    color: #839073;
+    transition: 0.5s;
+}
+
+footer 
+{
+    clear: both;
+}
