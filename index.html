@@ -17,9 +17,25 @@
     </nav> <br><br>
     <main>
         <a href="https://www.youtube.com/watch?v=3X-iqFRGqbc" class="man">click for funny</a> 
-    </main> <br>
+    </main> <br><br><br><br><br><br>
+    <div class="obr">
+        <img src="hv.jpg" alt="" id="hv">
+    </div><br><br><br><br><br><br>
     <footer>
         <a href="https://www.youtube.com/watch?v=JLIWXXHkWVA">epik storna</a>  
     </footer>
+
+    <script>
+        const hv = document.getElementById('hv');
+
+        let a = 0;
+        function rotate () 
+        {
+        
+            hv.style.transform = `rotate(${a}deg)`;
+            a++
+        }
+        setInterval(rotate,25)
+    </script>
 </body>
 </html>
